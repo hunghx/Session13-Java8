@@ -2,11 +2,12 @@ import ra.Student;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.TreeSet;
 
 public class Baitap {
     // cho danh sách sinh vien có 10 học sinh (tự chọn dữ liệu ngẫu nhiên) , mỗi học sinh gồm các thuộc tính:
     // id, name, age, sex , điểm tổng kết (dtb)
-    // lọc các học sinh có đtb >5 và <6.5
+    // lọc các học sinh có đtb > 5 và < 6.5
     // tính số lượng sinh viên nam nữ trong danh sách
     // lấy ra sinh viên có điểm cao nhất, thấp nhất
     // tính điêm trung bình của danh sách các học sinh
@@ -24,7 +25,6 @@ public class Baitap {
         list.add(new Student(8,"đạt",18,false,5));
         list.add(new Student(9,"ánh",21,true,9));
         list.add(new Student(10,"kiên",17,true,5.9));
-
 
     }
 }
